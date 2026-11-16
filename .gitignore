@@ -69,3 +69,11 @@ Thumbs.db
 *.temp
 *.bak
 *.swp
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Credentials
+*.pem
+*.key
